@@ -21,7 +21,8 @@ var go = module.exports = function (transform, input, cb) {
     .on('error', cb)
     .on('end', function () { cb(null, output) });
 
-  stringReadable(input).pipe(transform);
+  var readable = stringReadable(input)
+  readable.pipe(transform);
 
-  return stringReadable;
+  return readable;
 };
