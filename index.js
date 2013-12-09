@@ -2,9 +2,6 @@
 
 var stringReadable = require('./string-readable')
 
-var go = module.exports = 
-
-
 /**
  * Applies the given transform to the input and calls back with result.
  * 
@@ -17,7 +14,7 @@ var go = module.exports =
  *  - {String} output: the result of applying the @see transform to the @see input
  * @return {ReadableStream} that streams the input string char by char, useful for debugging failing transforms
  */
-function (transform, input, cb) {
+var go = module.exports = function (transform, input, cb) {
   var output = '';
   transform
     .on('data', function (d) { output += d })

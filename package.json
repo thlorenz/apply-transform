@@ -15,7 +15,9 @@
     "url": "git://github.com/thlorenz/apply-transform.git"
   },
   "homepage": "https://github.com/thlorenz/apply-transform",
-  "dependencies": {},
+  "dependencies": {
+    "readable-stream": "~1.1.9"
+  },
   "devDependencies": {
     "nave": "~0.4.3",
     "tap": "~0.4.3",
