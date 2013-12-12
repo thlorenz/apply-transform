@@ -23,7 +23,7 @@
     "tap": "~0.4.3",
     "through2": "~0.2.3"
   },
-  "keywords": [],
+  "keywords": [ "transform", "apply", "stream", "test", "string" ],
   "author": {
     "name": "Thorsten Lorenz",
     "email": "thlorenz@gmx.de",
