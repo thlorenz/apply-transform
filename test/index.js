@@ -1,6 +1,6 @@
 'use strict';
 
-var test           =  require('tap').test
+var test           =  require('tape')
   , through        =  require('through2')
   , applyTransform =  require('../')
 

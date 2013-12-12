@@ -21,7 +21,8 @@
   "devDependencies": {
     "nave": "~0.4.3",
     "tap": "~0.4.3",
-    "through2": "~0.2.3"
+    "through2": "~0.2.3",
+    "tape": "~2.3.0"
   },
   "keywords": [
     "transform",
@@ -41,5 +42,21 @@
   },
   "engine": {
     "node": ">=0.6"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
   }
 }

@@ -1,5 +1,7 @@
 # apply-transform [![build status](https://secure.travis-ci.org/thlorenz/apply-transform.png)](http://travis-ci.org/thlorenz/apply-transform)
 
+[![testling badge](https://ci.testling.com/thlorenz/apply-transform.png)](https://ci.testling.com/thlorenz/apply-transform)
+
 Applies a transform to an input string and calls back with result, mostly useful for testing transforms
 
 ```js
