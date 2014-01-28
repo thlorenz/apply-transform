@@ -3,7 +3,7 @@
 var stream = require('stream');
 var util = require('util');
 
-var Readable = stream.Readable || require('readable-stream').Readable;
+var Readable = require('readable-stream').Readable;
 
 module.exports = StringReadable
 
